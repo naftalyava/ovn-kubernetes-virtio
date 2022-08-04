@@ -14,5 +14,5 @@ export OVN_DISABLE_PKT_MTU_CHECK=true
 # Assume still in dist/images
 # Modify container image name in scripts below in case it
 # differs than ovn-daemonset
-$ ./run-ovn-dpu.sh
-$ ./run-ovnkube-node-dpu.sh
+./run-ovn-dpu.sh
+./run-ovnkube-node-dpu.sh
